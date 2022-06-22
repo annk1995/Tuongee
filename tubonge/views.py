@@ -10,3 +10,5 @@ def about(request):
     return render(request,'about.html')
 def footer(request):
     return render(request,'footer.html')
+def contact(request):
+    return render(request,'contact.html')
